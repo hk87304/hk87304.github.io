@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hk87304.github.io/sitemap.xml
