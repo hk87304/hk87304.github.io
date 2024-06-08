@@ -22,7 +22,7 @@
     <section id="about" class="section">
       <div class="container">
         <div class="profile"> <img src="profile.jpg" alt="Profile Picture" class="profile-pic"
-            style="width: 195px; height: 211px;">
+            style="width: 210px; height: 280px;">
           <div class="bio">
             <h2 style="margin-top: 2.9167px;">About Me</h2>
             <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgb(0, 0, 0); font-family: Roboto, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">I
