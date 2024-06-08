@@ -50,7 +50,7 @@ main section {
 main #about-me .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 main #about-me .text {
@@ -59,7 +59,7 @@ main #about-me .text {
 }
 
 .profile-picture {
-    max-width: 150px;
+    max-width: 400px;
     border-radius: 50%;
     display: block;
 }
@@ -85,7 +85,7 @@ ul li {
 
 footer {
     background-color: #4B0082;
-    color: #fff;
+    color: #FFFF00;
     text-align: center;
     padding: 10px 0;
     position: fixed;
