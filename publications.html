@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications & Preprints - Your Name</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #222;
+        }
+        .publication {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dotted #ddd;
+        }
+        .publication:last-child {
+            border-bottom: none;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-authors {
+            font-style: italic;
+        }
+        .publication-venue {
+            color: #555;
+        }
+        .publication-links a {
+            margin-right: 15px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .publication-links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="publications.html">Publications & Preprints</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="assets/your_cv.pdf" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Publications & Preprints</h1>
+        
+        <section>
+            <h2>Journal Articles</h2>
+            
+            <div class="publication">
+                <p class="publication-title">Reeb Dynamics of the Link of the A_n Singularity</p>
+                <p class="publication-authors">Leonardo Abbrescia, Irit Huq-Kuruvilla, Jo Nelson, Nawaz Sultani</p>
+                <p class="publication-venue">Involve, 10(3), 417-442, 2017</p>
+                <p class="publication-links">
+                    <a href="https://doi.org/10.2140/involve.2017.10.417" target="_blank">DOI</a>
+			                    <a href="https://arxiv.org/abs/1509.02939" target="_blank">arXiv</a>
+                  
+
+                </p>
+            </div>
+            
+            <!-- Repeat publication div for each publication -->
+        </section>
+        
+     
+        <section>
+            <h2>Preprints</h2>
+            
+            <div class="publication">
+                <p class="publication-title">Toda-type presentations for the quantum K theory of partial flag varieties</p>
+                <p class="publication-authors">Kamyar Amini, Irit Huq-Kuruvilla, Leonardo Mihalcea, Daniel Orr, Weihong Xu</p>
+                <p class="publication-venue">arXiv:2504.07412, 2025</p>
+                <p class="publication-links">
+                    <a href="https://arxiv.org/abs/2504.07412" target="_blank">arXiv</a>
+                  
+                </p>
+            </div>
+<div class="publication">
+                <p class="publication-title">Quantum K-Rings of Partial Flag Varieties, Coulomb Branches, and the Bethe Ansatz</p>
+                <p class="publication-authors">Irit Huq-Kuruvilla</p>
+                <p class="publication-venue">arXiv:2409.15575, 2024</p>
+                <p class="publication-links">
+                    <a href="https://arxiv.org/abs/2409.15575" target="_blank">arXiv</a>
+                   >
+                </p>
+            </div>
+<div class="publication">
+                <p class="publication-title">Relations in Twisted Quantum K-Rings</p>
+                <p class="publication-authors">Irit Huq-Kuruvilla</p>
+                <p class="publication-venue">arXiv:2406.00916, 2024</p>
+                <p class="publication-links">
+                    <a href="https://arxiv.org/abs/2406.00916" target="_blank">arXiv</a>
+                   
+                </p>
+            </div>
+<div class="publication">
+                <p class="publication-title">Multiplicative Quantum Cobordism Theory</p>
+                <p class="publication-authors">Irit Huq-Kuruvilla</p>
+                <p class="publication-venue">arXiv:XXXX.XXXXX, 2020</p>
+                <p class="publication-links">
+                    <a href="#" target="_blank">arXiv</a>
+                  
+                </p>
+            </div>
+            
+            <!-- Repeat publication div for each preprint -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Irit Huq-Kuruvilla | Last updated: <span id="last-updated"></span></p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+            document.getElementById('last-updated').textContent = document.lastModified;
+        </script>
+    </footer>
+</body>
+</html>

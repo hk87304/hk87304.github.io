@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Irit Huq-Kuruvilla - Academic Profile</title>
+    <title>Contact - Your Name</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -32,24 +32,20 @@
         nav a:hover {
             text-decoration: underline;
         }
-        .profile {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 30px;
-            align-items: flex-start;
-        }
-        .profile-image {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-        .profile-text {
-            flex: 1;
-        }
         h1 {
-            margin-top: 0;
             color: #222;
+        }
+        .contact-info {
+            margin-bottom: 30px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
         }
         footer {
             margin-top: 50px;
@@ -73,29 +69,33 @@
     </header>
 
     <main>
-        <div class="profile">
-            <img src="assets/stuff.jpg" alt="Me" class="profile-image">
-            <div class="profile-text">
-                <h1>Irit Huq-Kuruvilla</h1>
-                <p><em>Virginia Tech</em></p>
-                <p>Welcome to my academic website. I a mathematician, currently employed as a Patricia Caldwell Postdoctoral Scholar at Virginia Tech. From August 2025-2028, I will be a Project Researcher at Academia Sinica.</p>
-            </div>
+        <h1>Contact Information</h1>
+        
+        <div class="contact-info">
+            <p><strong>Email:</strong> your.email@university.edu</p>
+            <p><strong>Office:</strong> Building Name, Room XXX</p>
+            <p><strong>Address:</strong><br>
+            Department Name<br>
+            University Name<br>
+            Street Address<br>
+            City, State ZIP<br>
+            Country</p>
+            
+            <p><strong>Office Hours:</strong> Weekdays XX:XX - XX:XX or by appointment</p>
         </div>
-
-        <section>
-            <h2>Research Interests</h2>
-            <p>My research focuses on enumerative algebraic geometry, and its intersection with mathematical physics. I am particularly interested in quantum $K$-theory and related topics, in particular connections to quantum field theory and integrable systems. 
-            <ul>
-                <li>Research area 1</li>
-                <li>Research area 2</li>
-                <li>Research area 3</li>
-            </ul>
-        </section>
-
-            </main>
+        
+        <div class="social-links">
+            <h2>Connect with me</h2>
+            <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://orcid.org/" target="_blank">ORCID</a>
+        </div>
+    </main>
 
     <footer>
-        <p>© <span id="year"></span> Irit Huq-Kuruvilla | Last updated: <span id="last-updated"></span></p>
+        <p>© <span id="year"></span> Your Name | Last updated: <span id="last-updated"></span></p>
         <script>
             document.getElementById('year').textContent = new Date().getFullYear();
             document.getElementById('last-updated').textContent = document.lastModified;

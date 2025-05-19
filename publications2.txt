@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications & Preprints - Your Name</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #222;
+        }
+        .publication {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dotted #ddd;
+        }
+        .publication:last-child {
+            border-bottom: none;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-authors {
+            font-style: italic;
+        }
+        .publication-venue {
+            color: #555;
+        }
+        .publication-links a {
+            margin-right: 15px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .publication-links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="publications.html">Publications & Preprints</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="assets/your_cv.pdf" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Publications & Preprints</h1>
+        
+        <section>
+            <h2>Journal Articles</h2>
+            
+            <div class="publication">
+                <p class="publication-title">Title of Your Publication</p>
+                <p class="publication-authors">Your Name, Co-author One, Co-author Two</p>
+                <p class="publication-venue">Journal Name, Volume(Issue), Pages, Year</p>
+                <p class="publication-links">
+                    <a href="#" target="_blank">DOI</a>
+                    <a href="#" target="_blank">PDF</a>
+                    <a href="#" target="_blank">Code</a>
+                </p>
+            </div>
+            
+            <!-- Repeat publication div for each publication -->
+        </section>
+        
+        <section>
+            <h2>Conference Proceedings</h2>
+            
+            <div class="publication">
+                <p class="publication-title">Title of Your Conference Paper</p>
+                <p class="publication-authors">Your Name, Co-author One, Co-author Two</p>
+                <p class="publication-venue">Conference Name, Location, Year</p>
+                <p class="publication-links">
+                    <a href="#" target="_blank">DOI</a>
+                    <a href="#" target="_blank">PDF</a>
+                    <a href="#" target="_blank">Slides</a>
+                </p>
+            </div>
+            
+            <!-- Repeat publication div for each conference paper -->
+        </section>
+        
+        <section>
+            <h2>Preprints</h2>
+            
+            <div class="publication">
+                <p class="publication-title">Title of Your Preprint</p>
+                <p class="publication-authors">Your Name, Co-author One, Co-author Two</p>
+                <p class="publication-venue">arXiv:XXXX.XXXXX, Year</p>
+                <p class="publication-links">
+                    <a href="#" target="_blank">arXiv</a>
+                    <a href="#" target="_blank">PDF</a>
+                </p>
+            </div>
+            
+            <!-- Repeat publication div for each preprint -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Your Name | Last updated: <span id="last-updated"></span></p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+            document.getElementById('last-updated').textContent = document.lastModified;
+        </script>
+    </footer>
+</body>
+</html>
